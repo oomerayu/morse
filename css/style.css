@@ -1,7 +1,6 @@
 html,
 body {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Raleway', sans-serif;
 }
 
 .down-left {
@@ -26,4 +25,68 @@ body {
     position: fixed;
     top: 0;
     right: 0;
+}
+
+.header {
+    position: relative;
+    max-width: 1231px;
+
+    margin: auto;
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    font-family: 'Raleway', sans-serif;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item-link {
+    color: black;
+    text-decoration: none;
+    margin: 0px 25px;
+
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.welcome {
+    position: relative;
+    margin: 178px 375px 0px auto;
+
+    text-align: right;
+}
+
+.title {
+    margin: 0px 0px 25px 0px;
+
+    color: black;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.description {
+    margin: 0px 0px 80px auto;
+    max-width: 700px;
+
+    color: black;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 20px 96px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+
+    font-size: 48px;
+    line-height: 59px;
 }
