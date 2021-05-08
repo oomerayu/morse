@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Азбука Морзе</title>
+</head>
+<body>
+    <img src="img/main-down-left.png" alt="Нижний левый" class="down-left">
+    <img src="img/main-up-right.png" alt="Верхний правый" class="up-right">
+
+    <header class="header">
+        <a href="index.html"><img src="img/logo.svg" alt="Логотип" class="logo"></a>
+
+        <nav class="navigation">
+            <ul class="list">
+                <li class="item">
+                    <a href="alpha.html" class="item-link">Алфавит</a>
+                </li>
+                <li class="item">
+                    <a href="training.html" class="item-link">Тренажер</a>
+                </li>
+                <li class="item">
+                    <a href="test.html" class="item-link">Тестирование</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="piano">
+        <div class="nowplaying">Нажмите на любую из указанных клавиш</div>
+        <div class="structure">Здесь будет показана структурная напевка</div>
+        <div class="sense">Здесь будет показана смысловая напевка</div>
+        <hr>
+        <div class="keys">
+            <div class="first-row">
+                <div data-key="49" class="key" data-note="1" structure-note="ти-ТАА-ТАА-ТАА-ТАА" sense-note="од-НАА-ГАА-ДАА-ЛАА"> 
+                    <span class="hints">1</span>
+                </div>
+                <div data-key="50" class="key" data-note="2" structure-note="ти-ти-ТАА-ТАА-ТАА" sense-note="два-на-ГООР-КУУ-ШЛАА"> 
+                    <span class="hints">2</span>
+                </div>
+                <div data-key="51" class="key" data-note="3" structure-note="ти-ти-ти-ТАА-ТАА" sense-note="три-те-бе-МАА-ЛОО"> 
+                    <span class="hints">3</span>
+                </div>
+                <div data-key="52" class="key" data-note="4" structure-note="ти-ти-ти-ти-ТАА" sense-note="чет-ве-ри-ти-КАА"> 
+                    <span class="hints">4</span>
+                </div>
+                <div data-key="53" class="key" data-note="5" structure-note="ти-ти-ти-ти-ти" sense-note="пя-ти-ле-ти-е"> 
+                    <span class="hints">5</span>
+                </div>
+                <div data-key="54" class="key" data-note="6" structure-note="ТАА-ти-ти-ти-ти" sense-note="ПОО-шес-ти-бе-ри"> 
+                    <span class="hints">6</span>
+                </div>
+                <div data-key="55" class="key" data-note="7" structure-note="ТАА-ТАА-ти-ти-ти" sense-note="ДААЙ-ДААЙ-се-ме-рым"> 
+                    <span class="hints">7</span>
+                </div>
+                <div data-key="56" class="key" data-note="8" structure-note="ТАА-ТАА-ТАА-ти-ти" sense-note="ВОО-ЛОО-САА-ти-ки"> 
+                    <span class="hints">8</span>
+                </div>
+                <div data-key="57" class="key" data-note="9" structure-note="ТАА-ТАА-ТАА-ТАА-ти" sense-note="ДЕЕ-ВЯЯ-ТОО-ГОО-ть"> 
+                    <span class="hints">9</span>
+                </div>
+                <div data-key="48" class="key" data-note="0" structure-note="ТАА-ТАА-ТАА-ТАА-ТАА" sense-note="САА-МЫЫЙ-ДЛИН-НЫЫЙ-НООЛЬ"> 
+                    <span class="hints">0</span>
+                </div>
+                <div data-key="187" class="key" data-note="=" structure-note="ТАА-ти-ти-ти-ТАА" sense-note="СЛУУ-шай-те-ме-НЯЯ"> 
+                    <span class="hints">=</span>
+                </div>
+            </div>
+            <div class="second-row">
+                <div data-key="81" class="key" data-note="Й" structure-note="ти-ТАА-ТАА-ТАА" sense-note="и-ВАА-НОО-ВНАА"> 
+                    <span class="hints">Й</span>
+                </div>
+                <div data-key="87" class="key" data-note="Ц" structure-note="ТАА-ти-ТАА-ти" sense-note="ЦАА-ги-ЦАА-ги"> 
+                    <span class="hints">Ц</span>
+                </div>
+                <div data-key="69" class="key" data-note="У" structure-note="ти-ти-ТАА" sense-note="у-ве-ЛАА"> 
+                    <span class="hints">У</span>
+                </div>
+                <div data-key="82" class="key" data-note="К" structure-note="ТАА-ти-ТАА" sense-note="КАА-тень-КАА"> 
+                    <span class="hints">К</span>
+                </div>
+                <div data-key="84" class="key" data-note="Е" structure-note="ти" sense-note="есть"> 
+                    <span class="hints">Е</span>
+                </div>
+                <div data-key="89" class="key" data-note="Н" structure-note="ТАА-ти" sense-note="НАА-тик"> 
+                    <span class="hints">Н</span>
+                </div>
+                <div data-key="85" class="key" data-note="Г" structure-note="ТАА-ТАА-ти" sense-note="ГАА-РАА-жик"> 
+                    <span class="hints">Г</span>
+                </div>
+                <div data-key="73" class="key" data-note="Ш" structure-note="ТАА-ТАА-ТАА-ТАА" sense-note="ШАА-РОО-ВАА-РАА"> 
+                    <span class="hints">Ш</span>
+                </div>
+                <div data-key="79" class="key" data-note="Щ" structure-note="ТАА-ТАА-ти-ТАА" sense-note="ЩАА-ЩАА-не-ЩАА"> 
+                    <span class="hints">Щ</span>
+                </div>
+                <div data-key="80" class="key" data-note="З" structure-note="ТАА-ТАА-ти-ти" sense-note="ЗАА-ЗАА-ти-ки"> 
+                    <span class="hints">З</span>
+                </div>
+                <div data-key="219" class="key" data-note="Х" structure-note="ти-ти-ти-ти" sense-note="хи-ми-чи-ки"> 
+                    <span class="hints">Х</span>
+                </div>
+                <div data-key="221" class="key" data-note="Ъ" structure-note="ТАА-ТАА-ти-ТАА-ТАА" sense-note="ТВЕЕР-ДЫЫЙ-не-МЯЯГ-КИИЙ"> 
+                    <span class="hints">Ъ</span>
+                </div>
+            </div>
+            <div class="third-row">
+                <div data-key="65" class="key" data-note="Ф" structure-note="ти-ти-ТАА-ти" sense-note="фе-дя-КАА-тя"> 
+                    <span class="hints">Ф</span>
+                </div>
+                <div data-key="83" class="key" data-note="Ы" structure-note="ТАА-ти-ТАА-ТАА" sense-note="ЫЫЫ-не-НАА-ДОО"> 
+                    <span class="hints">Ы</span>
+                </div>
+                <div data-key="68" class="key" data-note="В" structure-note="ти-ТАА-ТАА" sense-note="ви-ДАА-ЛАА"> 
+                    <span class="hints">В</span>
+                </div>
+                <div data-key="70" class="key" data-note="А" structure-note="ти-ТАА" sense-note="ай-ДАА"> 
+                    <span class="hints">А</span>
+                </div>
+                <div data-key="71" class="key" data-note="П" structure-note="ти-ТАА-ТАА-ти" sense-note="пи-ЛАА-ПОО-ет"> 
+                    <span class="hints">П</span>
+                </div>
+                <div data-key="72" class="key" data-note="Р" structure-note="ти-ТАА-ти" sense-note="ри-НАА-тик"> 
+                    <span class="hints">Р</span>
+                </div>
+                <div data-key="74" class="key" data-note="О" structure-note="ТАА-ТАА-ТАА" sense-note="ООО-ЛОО-ВОО"> 
+                    <span class="hints">О</span>
+                </div>
+                <div data-key="75" class="key" data-note="Л" structure-note="ти-ТАА-ти-ти" sense-note="лу-НАА-ти-ки"> 
+                    <span class="hints">Л</span>
+                </div>
+                <div data-key="76" class="key" data-note="Д" structure-note="ТАА-ти-ти" sense-note="ДОО-ми-ки"> 
+                    <span class="hints">Д</span>
+                </div>
+                <div data-key="186" class="key" data-note="Ж" structure-note="ти-ти-ти-ТАА" sense-note="я-бук-ва-ЖЕЕ"> 
+                    <span class="hints">Ж</span>
+                </div>
+                <div data-key="222" class="key" data-note="Э" structure-note="ти-ти-ТАА-ти-ти" sense-note="э-ле-РООН-чи-ки"> 
+                    <span class="hints">Э</span>
+                </div>
+            </div>
+            <div class="fourth-row">
+                <div data-key="90" class="key" data-note="Я" structure-note="ти-ТАА-ти-ТАА" sense-note="я-МААЛ-я-МААЛ"> 
+                    <span class="hints">Я</span>
+                </div>
+                <div data-key="88" class="key" data-note="Ч" structure-note="ТАА-ТАА-ТАА-ти" sense-note="ЧЕЕ-ЛОО-ВЕЕ-чик"> 
+                    <span class="hints">Ч</span>
+                </div>
+                <div data-key="67" class="key" data-note="С" structure-note="ти-ти-ти" sense-note="са-мо-лет"> 
+                    <span class="hints">С</span>
+                </div>
+                <div data-key="86" class="key" data-note="М" structure-note="ТАА-ТАА" sense-note="МАА-МАА"> 
+                    <span class="hints">М</span>
+                </div>
+                <div data-key="66" class="key" data-note="И" structure-note="ти-ти" sense-note="и-ди"> 
+                    <span class="hints">И</span>
+                </div>
+                <div data-key="78" class="key" data-note="Т" structure-note="ТАА" sense-note="ТАА"> 
+                    <span class="hints">Т</span>
+                </div>
+                <div data-key="77" class="key" data-note="Ь" structure-note="ТАА-ти-ти-ТАА" sense-note="ЗНААК-мяг-кий-ЗНААК"> 
+                    <span class="hints">Ь</span>
+                </div>
+                <div data-key="188" class="key" data-note="Б" structure-note="ТАА-ти-ти-ти" sense-note="БАА-ки-те-кут"> 
+                    <span class="hints">Б</span>
+                </div>
+                <div data-key="190" class="key" data-note="Ю" structure-note="ти-ти-ТАА-ТАА" sense-note="ю-ли-ААА-НАА"> 
+                    <span class="hints">Ю</span>
+                </div>
+            </div>
+        </div>
+
+        <audio data-key="49" src="audio/numbers/1_.wav"></audio>
+        <audio data-key="50" src="audio/numbers/2_.wav"></audio>
+        <audio data-key="51" src="audio/numbers/3_.wav"></audio>
+        <audio data-key="52" src="audio/numbers/4_.wav"></audio>
+        <audio data-key="53" src="audio/numbers/5_.wav"></audio>
+        <audio data-key="54" src="audio/numbers/6_.wav"></audio>
+        <audio data-key="55" src="audio/numbers/7_.wav"></audio>
+        <audio data-key="56" src="audio/numbers/8_.wav"></audio>
+        <audio data-key="57" src="audio/numbers/9_.wav"></audio>
+        <audio data-key="48" src="audio/numbers/0_.wav"></audio>
+        <audio data-key="187" src="audio/=_.wav"></audio>
+        <audio data-key="81" src="audio/letters/й_.wav"></audio>
+        <audio data-key="87" src="audio/letters/ц_.wav"></audio>
+        <audio data-key="69" src="audio/letters/у_.wav"></audio>
+        <audio data-key="82" src="audio/letters/к_.wav"></audio>
+        <audio data-key="84" src="audio/letters/е_.wav"></audio>
+        <audio data-key="89" src="audio/letters/н_.wav"></audio>
+        <audio data-key="85" src="audio/letters/г_.wav"></audio>
+        <audio data-key="73" src="audio/letters/ш_.wav"></audio>
+        <audio data-key="79" src="audio/letters/щ_.wav"></audio>
+        <audio data-key="80" src="audio/letters/з_.wav"></audio>
+        <audio data-key="219" src="audio/letters/х_.wav"></audio>
+        <audio data-key="221" src="audio/letters/ъ_.wav"></audio>
+        <audio data-key="65" src="audio/letters/ф_.wav"></audio>
+        <audio data-key="83" src="audio/letters/ы_.wav"></audio>
+        <audio data-key="68" src="audio/letters/в_.wav"></audio>
+        <audio data-key="70" src="audio/letters/а_.wav"></audio>
+        <audio data-key="71" src="audio/letters/п_.wav"></audio>
+        <audio data-key="72" src="audio/letters/р_.wav"></audio>
+        <audio data-key="74" src="audio/letters/о_.wav"></audio>
+        <audio data-key="75" src="audio/letters/л_.wav"></audio>
+        <audio data-key="76" src="audio/letters/д_.wav"></audio>
+        <audio data-key="186" src="audio/letters/ж_.wav"></audio>
+        <audio data-key="222" src="audio/letters/э_.wav"></audio>
+        <audio data-key="90" src="audio/letters/я_.wav"></audio>
+        <audio data-key="88" src="audio/letters/ч_.wav"></audio>
+        <audio data-key="67" src="audio/letters/с_.wav"></audio>
+        <audio data-key="86" src="audio/letters/м_.wav"></audio>
+        <audio data-key="66" src="audio/letters/и_.wav"></audio>
+        <audio data-key="78" src="audio/letters/т_.wav"></audio>
+        <audio data-key="77" src="audio/letters/ь_.wav"></audio>
+        <audio data-key="188" src="audio/letters/б_.wav"></audio>
+        <audio data-key="190" src="audio/letters/ю_.wav"></audio>
+    </main>
+</body>
+</html>
