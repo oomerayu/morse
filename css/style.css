@@ -90,3 +90,68 @@ body {
     font-size: 48px;
     line-height: 59px;
 }
+
+.piano {
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.nowplaying {
+    font-size: 48px;
+    line-height: 59px;
+    color: black;
+    transition: all .07s ease;
+}
+
+.structure,
+.sense {
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+}
+
+hr {
+    max-width: 1000px;
+    width: 60%;
+
+    margin: 20px auto;
+}
+
+.key {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all .07s ease;
+
+    font-size: 36px;
+    line-height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+}
+
+.second-row {
+    display: flex;
+    justify-content: center;
+}
+
+.third-row {
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-row {
+    display: flex;
+    justify-content: center;
+}
+
+.playing {
+    transform: scale(.95);
+    border-color: #06D6A0;
+}
