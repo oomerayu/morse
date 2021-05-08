@@ -3,3 +3,27 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
+
+.down-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.down-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.up-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.up-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
